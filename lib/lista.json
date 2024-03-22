@@ -1,0 +1,628 @@
+{
+  "piante": [
+    {
+      "nome": "Basilico",
+      "tipologie": ["Erbe aromatiche"],
+      "cucina": true,
+      "tempo_di_crescita": "4-6 settimane",
+      "medicinale": false,
+      "immagine": "basilico.jpg"
+    },
+    {
+      "nome": "Rucola",
+      "tipologie": ["Verdure"],
+      "cucina": true,
+      "tempo_di_crescita": "3-4 settimane",
+      "medicinale": false,
+      "immagine": "rucola.jpg"
+    },
+    {
+      "nome": "Camomilla",
+      "tipologie": ["Erbe medicinali"],
+      "cucina": false,
+      "tempo_di_crescita": "6-8 settimane",
+      "medicinale": true,
+      "immagine": "camomilla.jpg"
+    },
+    {
+      "nome": "Rosmarino",
+      "tipologie": ["Erbe aromatiche"],
+      "cucina": true,
+      "tempo_di_crescita": "12-14 settimane",
+      "medicinale": false,
+      "immagine": "rosmarino.jpg"
+    },
+    {
+      "nome": "Pomodoro",
+      "tipologie": ["Ortaggi"],
+      "cucina": true,
+      "tempo_di_crescita": "8-10 settimane",
+      "medicinale": false,
+      "immagine": "pomodoro.jpg"
+    },
+    {
+      "nome": "Lavanda",
+      "tipologie": ["Erbe aromatiche"],
+      "cucina": true,
+      "tempo_di_crescita": "12-16 settimane",
+      "medicinale": true,
+      "immagine": "lavanda.jpg"
+    },
+    {
+      "nome": "Menta",
+      "tipologie": ["Erbe aromatiche"],
+      "cucina": true,
+      "tempo_di_crescita": "8-10 settimane",
+      "medicinale": true,
+      "immagine": "menta.jpg"
+    },
+    {
+      "nome": "Zucchina",
+      "tipologie": ["Ortaggi"],
+      "cucina": true,
+      "tempo_di_crescita": "6-8 settimane",
+      "medicinale": false,
+      "immagine": "zucchina.jpg"
+    },
+    {
+      "nome": "Limoncello",
+      "tipologie": ["Frutta"],
+      "cucina": true,
+      "tempo_di_crescita": "6-8 mesi",
+      "medicinale": false,
+      "immagine": "limone.jpg"
+    },
+    {
+      "nome": "Tarassaco",
+      "tipologie": ["Erbe medicinali"],
+      "cucina": false,
+      "tempo_di_crescita": "6-8 settimane",
+      "medicinale": true,
+      "immagine": "tarassaco.jpg"
+    },
+    {
+      "nome": "Peperoncino",
+      "tipologie": ["Spezie"],
+      "cucina": true,
+      "tempo_di_crescita": "8-10 settimane",
+      "medicinale": true,
+      "immagine": "peperoncino.jpg"
+    },
+    {
+      "nome": "Mirtillo",
+      "tipologie": ["Frutta"],
+      "cucina": true,
+      "tempo_di_crescita": "12-16 settimane",
+      "medicinale": true,
+      "immagine": "mirtillo.jpg"
+    },
+    {
+      "nome": "Mandarino",
+      "tipologie": ["Frutta"],
+      "cucina": true,
+      "tempo_di_crescita": "3-5 anni",
+      "medicinale": false,
+      "immagine": "mandarino.jpg"
+    },
+    {
+      "nome": "Aloe Vera",
+      "tipologie": ["Piante succulente"],
+      "cucina": false,
+      "tempo_di_crescita": "2-3 anni",
+      "medicinale": true,
+      "immagine": "aloe_vera.jpg"
+    },
+    {
+      "nome": "Ananas",
+      "tipologie": ["Frutta"],
+      "cucina": true,
+      "tempo_di_crescita": "18-24 mesi",
+      "medicinale": false,
+      "immagine": "ananas.jpg"
+    },
+    {
+      "nome": "Ciliegio",
+      "tipologie": ["Alberi da frutto"],
+      "cucina": true,
+      "tempo_di_crescita": "3-5 anni",
+      "medicinale": false,
+      "immagine": "ciliegio.jpg"
+    },
+    {
+      "nome": "Bambù",
+      "tipologie": ["Piante ornamentali"],
+      "cucina": false,
+      "tempo_di_crescita": "1-5 anni",
+      "medicinale": false,
+      "immagine": "bambu.jpg"
+    },
+    {
+      "nome": "Cocco",
+      "tipologie": ["Frutta"],
+      "cucina": true,
+      "tempo_di_crescita": "5-6 anni",
+      "medicinale": false,
+      "immagine": "cocco.jpg"
+    },
+    {
+      "nome": "Melograno",
+      "tipologie": ["Alberi da frutto"],
+      "cucina": true,
+      "tempo_di_crescita": "3-4 anni",
+      "medicinale": true,
+      "immagine": "melograno.jpg"
+    },
+    {
+      "nome": "Magnolia",
+      "tipologie": ["Alberi ornamentali"],
+      "cucina": false,
+      "tempo_di_crescita": "2-5 anni",
+      "medicinale": false,
+      "immagine": "magnolia.jpg"
+    },
+    {
+      "nome": "Girasole",
+      "tipologie": ["Piante ornamentali"],
+      "cucina": false,
+      "tempo_di_crescita": "10-12 settimane",
+      "medicinale": false,
+      "immagine": "girasole.jpg"
+    },
+    {
+      "nome": "Geranio",
+      "tipologie": ["Piante da fiore"],
+      "cucina": false,
+      "tempo_di_crescita": "10-12 settimane",
+      "medicinale": false,
+      "immagine": "geranio.jpg"
+    },
+    {
+      "nome": "Fico d'India",
+      "tipologie": ["Piante da frutto"],
+      "cucina": true,
+      "tempo_di_crescita": "2-3 anni",
+      "medicinale": false,
+      "immagine": "fico_dindia.jpg"
+    },
+    {
+      "nome": "Basilico giapponese",
+      "tipologie": ["Erbe aromatiche"],
+      "cucina": true,
+      "tempo_di_crescita": "6-8 settimane",
+      "medicinale": false,
+      "immagine": "basilico_giapponese.jpg"
+    },
+    {
+      "nome": "Ibisco",
+      "tipologie": ["Piante da fiore"],
+      "cucina": false,
+      "tempo_di_crescita": "12-14 settimane",
+      "medicinale": false,
+      "immagine": "ibisco.jpg"
+    },
+    {
+      "nome": "Menta piperita",
+      "tipologie": ["Erbe aromatiche"],
+      "cucina": true,
+      "tempo_di_crescita": "8-10 settimane",
+      "medicinale": true,
+      "immagine": "menta_piperita.jpg"
+    },
+    {
+      "nome": "Papaya",
+      "tipologie": ["Frutta"],
+      "cucina": true,
+      "tempo_di_crescita": "6-9 mesi",
+      "medicinale": true,
+      "immagine": "papaya.jpg"
+    },
+    {
+      "nome": "Agrifoglio",
+      "tipologie": ["Piante ornamentali"],
+      "cucina": false,
+      "tempo_di_crescita": "2-5 anni",
+      "medicinale": false,
+      "immagine": "agrifoglio.jpg"
+    },
+    {
+      "nome": "Piantaggine",
+      "tipologie": ["Erbe medicinali"],
+      "cucina": false,
+      "tempo_di_crescita": "8-10 settimane",
+      "medicinale": true,
+      "immagine": "piantaggine.jpg"
+    },
+    {
+      "nome": "Fico",
+      "tipologie": ["Alberi da frutto"],
+      "cucina": true,
+      "tempo_di_crescita": "3-4 anni",
+      "medicinale": false,
+      "immagine": "fico.jpg"
+    },
+    {
+      "nome": "Cipresso",
+      "tipologie": ["Alberi ornamentali"],
+      "cucina": false,
+      "tempo_di_crescita": "2-3 anni",
+      "medicinale": false,
+      "immagine": "cipresso.jpg"
+    },
+    {
+      "nome": "Salvia",
+      "tipologie": ["Erbe aromatiche"],
+      "cucina": true,
+      "tempo_di_crescita": "8-10 settimane",
+      "medicinale": true,
+      "immagine": "salvia.jpg"
+    },
+    {
+      "nome": "Fragola",
+      "tipologie": ["Frutta"],
+      "cucina": true,
+      "tempo_di_crescita": "4-6 settimane",
+      "medicinale": false,
+      "immagine": "fragola.jpg"
+    },
+    {
+      "nome": "Girasole",
+      "tipologie": ["Piante ornamentali"],
+      "cucina": false,
+      "tempo_di_crescita": "10-12 settimane",
+      "medicinale": false,
+      "immagine": "girasole.jpg"
+    },
+    {
+      "nome": "Timo",
+      "tipologie": ["Erbe aromatiche"],
+      "cucina": true,
+      "tempo_di_crescita": "8-10 settimane",
+      "medicinale": true,
+      "immagine": "timo.jpg"
+    },
+    {
+      "nome": "Melanzana",
+      "tipologie": ["Ortaggi"],
+      "cucina": true,
+      "tempo_di_crescita": "12-16 settimane",
+      "medicinale": false,
+      "immagine": "melanzana.jpg"
+    },
+    {
+      "nome": "Orchidea",
+      "tipologie": ["Piante ornamentali"],
+      "cucina": false,
+      "tempo_di_crescita": "2-3 anni",
+      "medicinale": false,
+      "immagine": "orchidea.jpg"
+    },
+    {
+      "nome": "Mimosa",
+      "tipologie": ["Piante ornamentali"],
+      "cucina": false,
+      "tempo_di_crescita": "1-2 anni",
+      "medicinale": false,
+      "immagine": "mimosa.jpg"
+    },
+    {
+      "nome": "Gelsomino",
+      "tipologie": ["Piante da fiore"],
+      "cucina": false,
+      "tempo_di_crescita": "1-2 anni",
+      "medicinale": false,
+      "immagine": "gelsomino.jpg"
+    },
+    {
+      "nome": "Peonia",
+      "tipologie": ["Piante da fiore"],
+      "cucina": false,
+      "tempo_di_crescita": "2-3 anni",
+      "medicinale": false,
+      "immagine": "peonia.jpg"
+    },
+    {
+      "nome": "Basilico rosso",
+      "tipologie": ["Erbe aromatiche"],
+      "cucina": true,
+      "tempo_di_crescita": "8-10 settimane",
+      "medicinale": false,
+      "immagine": "basilico_rosso.jpg"
+    },
+    {
+      "nome": "Ribes",
+      "tipologie": ["Frutta"],
+      "cucina": true,
+      "tempo_di_crescita": "1-2 anni",
+      "medicinale": true,
+      "immagine": "ribes.jpg"
+    },
+    {
+      "nome": "Lavanda",
+      "tipologie": ["Erbe aromatiche"],
+      "cucina": true,
+      "tempo_di_crescita": "12-16 settimane",
+      "medicinale": true,
+      "immagine": "lavanda.jpg"
+    },
+    {
+      "nome": "Cedro",
+      "tipologie": ["Alberi da frutto"],
+      "cucina": true,
+      "tempo_di_crescita": "3-5 anni",
+      "medicinale": false,
+      "immagine": "cedro.jpg"
+    },
+    {
+      "nome": "Tulipano",
+      "tipologie": ["Piante da fiore"],
+      "cucina": false,
+      "tempo_di_crescita": "1-2 anni",
+      "medicinale": false,
+      "immagine": "tulipano.jpg"
+    },
+    {
+      "nome": "Peperoncino Habanero",
+      "tipologie": ["Spezie"],
+      "cucina": true,
+      "tempo_di_crescita": "12-16 settimane",
+      "medicinale": true,
+      "immagine": "peperoncino_habanero.jpg"
+    },
+    {
+      "nome": "Limone",
+      "tipologie": ["Frutta"],
+      "cucina": true,
+      "tempo_di_crescita": "6-12 mesi",
+      "medicinale": true,
+      "immagine": "limone.jpg"
+    },
+    {
+      "nome": "Calendula",
+      "tipologie": ["Piante da fiore"],
+      "cucina": false,
+      "tempo_di_crescita": "8-10 settimane",
+      "medicinale": true,
+      "immagine": "calendula.jpg"
+    },
+    {
+      "nome": "Ortensia",
+      "tipologie": ["Piante da fiore"],
+      "cucina": false,
+      "tempo_di_crescita": "1-2 anni",
+      "medicinale": false,
+      "immagine": "ortensia.jpg"
+    },
+    {
+      "nome": "Arancia",
+      "tipologie": ["Frutta"],
+      "cucina": true,
+      "tempo_di_crescita": "6-12 mesi",
+      "medicinale": true,
+      "immagine": "arancia.jpg"
+    },
+    {
+      "nome": "Peperoncino Jalapeño",
+      "tipologie": ["Spezie"],
+      "cucina": true,
+      "tempo_di_crescita": "10-14 settimane",
+      "medicinale": true,
+      "immagine": "peperoncino_jalapeno.jpg"
+    },
+    {
+      "nome": "Birch",
+      "tipologie": ["Alberi ornamentali"],
+      "cucina": false,
+      "tempo_di_crescita": "2-4 anni",
+      "medicinale": false,
+      "immagine": "birch.jpg"
+    },
+    {
+      "nome": "Mora di gelso",
+      "tipologie": ["Frutta"],
+      "cucina": true,
+      "tempo_di_crescita": "1-2 anni",
+      "medicinale": true,
+      "immagine": "mora_di_gelso.jpg"
+    },
+    {
+      "nome": "Lillà",
+      "tipologie": ["Piante da fiore"],
+      "cucina": false,
+      "tempo_di_crescita": "2-3 anni",
+      "medicinale": false,
+      "immagine": "lilla.jpg"
+    },
+    {
+      "nome": "Bambù della fortuna",
+      "tipologie": ["Piante ornamentali"],
+      "cucina": false,
+      "tempo_di_crescita": "2-5 anni",
+      "medicinale": false,
+      "immagine": "bambu_della_fortuna.jpg"
+    },
+    {
+      "nome": "Fragola di bosco",
+      "tipologie": ["Frutta"],
+      "cucina": true,
+      "tempo_di_crescita": "1-2 anni",
+      "medicinale": false,
+      "immagine": "fragola_di_bosco.jpg"
+    },
+    {
+      "nome": "Tiglio",
+      "tipologie": ["Alberi ornamentali"],
+      "cucina": false,
+      "tempo_di_crescita": "2-4 anni",
+      "medicinale": true,
+      "immagine": "tiglio.jpg"
+    },
+    {
+      "nome": "Pepe nero",
+      "tipologie": ["Spezie"],
+      "cucina": true,
+      "tempo_di_crescita": "3-4 anni",
+      "medicinale": true,
+      "immagine": "pepe_nero.jpg"
+    },
+    {
+      "nome": "Rabarbaro",
+      "tipologie": ["Erbe medicinali"],
+      "cucina": true,
+      "tempo_di_crescita": "2 anni",
+      "medicinale": true,
+      "immagine": "rabarbaro.jpg"
+    },
+    {
+      "nome": "Cedro del Libano",
+      "tipologie": ["Alberi ornamentali"],
+      "cucina": false,
+      "tempo_di_crescita": "5-10 anni",
+      "medicinale": false,
+      "immagine": "cedro_del_libano.jpg"
+    },
+    {
+      "nome": "Papavero",
+      "tipologie": ["Piante da fiore"],
+      "cucina": false,
+      "tempo_di_crescita": "10-12 settimane",
+      "medicinale": true,
+      "immagine": "papavero.jpg"
+    },
+    {
+      "nome": "Melone",
+      "tipologie": ["Frutta"],
+      "cucina": true,
+      "tempo_di_crescita": "2-4 mesi",
+      "medicinale": false,
+      "immagine": "melone.jpg"
+    },
+    {
+      "nome": "Salvia Russa",
+      "tipologie": ["Erbe aromatiche"],
+      "cucina": true,
+      "tempo_di_crescita": "8-10 settimane",
+      "medicinale": true,
+      "immagine": "salvia_russa.jpg"
+    },
+    {
+      "nome": "Lavanda Stoechas",
+      "tipologie": ["Piante da fiore"],
+      "cucina": false,
+      "tempo_di_crescita": "12-16 settimane",
+      "medicinale": true,
+      "immagine": "lavanda_stoechas.jpg"
+    },
+    {
+      "nome": "Ribes Nero",
+      "tipologie": ["Frutta"],
+      "cucina": true,
+      "tempo_di_crescita": "2-3 anni",
+      "medicinale": true,
+      "immagine": "ribes_nero.jpg"
+    },
+    {
+      "nome": "Santolina",
+      "tipologie": ["Piante aromatiche"],
+      "cucina": true,
+      "tempo_di_crescita": "12-14 settimane",
+      "medicinale": false,
+      "immagine": "santolina.jpg"
+    },
+    {
+      "nome": "Alloro",
+      "tipologie": ["Piante aromatiche"],
+      "cucina": true,
+      "tempo_di_crescita": "2-3 anni",
+      "medicinale": true,
+      "immagine": "alloro.jpg"
+    },
+    {
+      "nome": "Kiwi",
+      "tipologie": ["Frutta"],
+      "cucina": true,
+      "tempo_di_crescita": "3-4 anni",
+      "medicinale": true,
+      "immagine": "kiwi.jpg"
+    },
+    {
+      "nome": "Verbena",
+      "tipologie": ["Erbe aromatiche"],
+      "cucina": true,
+      "tempo_di_crescita": "8-12 settimane",
+      "medicinale": true,
+      "immagine": "verbena.jpg"
+    },
+    {
+      "nome": "Peperoncino Thai",
+      "tipologie": ["Spezie"],
+      "cucina": true,
+      "tempo_di_crescita": "10-12 settimane",
+      "medicinale": true,
+      "immagine": "peperoncino_thai.jpg"
+    },
+    {
+      "nome": "Pomodoro San Marzano",
+      "tipologie": ["Ortaggi"],
+      "cucina": true,
+      "tempo_di_crescita": "10-12 settimane",
+      "medicinale": false,
+      "immagine": "pomodoro_san_marzano.jpg"
+    },
+    {
+      "nome": "Fico bianco",
+      "tipologie": ["Frutta"],
+      "cucina": true,
+      "tempo_di_crescita": "2-3 anni",
+      "medicinale": false,
+      "immagine": "fico_bianco.jpg"
+    },
+    {
+      "nome": "Peonia",
+      "tipologie": ["Piante da fiore"],
+      "cucina": false,
+      "tempo_di_crescita": "2-3 anni",
+      "medicinale": false,
+      "immagine": "peonia.jpg"
+    },
+    {
+      "nome": "Basilico greco",
+      "tipologie": ["Erbe aromatiche"],
+      "cucina": true,
+      "tempo_di_crescita": "8-10 settimane",
+      "medicinale": false,
+      "immagine": "basilico_greco.jpg"
+    },
+    {
+      "nome": "Ribes rosso",
+      "tipologie": ["Frutta"],
+      "cucina": true,
+      "tempo_di_crescita": "1-2 anni",
+      "medicinale": true,
+      "immagine": "ribes_rosso.jpg"
+    },
+    {
+      "nome": "Rosa Tea",
+      "tipologie": ["Piante da fiore"],
+      "cucina": false,
+      "tempo_di_crescita": "1-2 anni",
+      "medicinale": false,
+      "immagine": "rosa_tea.jpg"
+    },
+    {
+      "nome": "Aglio",
+      "tipologie": ["Ortaggi"],
+      "cucina": true,
+      "tempo_di_crescita": "6-9 mesi",
+      "medicinale": true,
+      "immagine": "aglio.jpg"
+    },
+    {
+      "nome": "Salvia Divinorum",
+      "tipologie": ["Piante medicinali"],
+      "cucina": false,
+      "tempo_di_crescita": "1-2 anni",
+      "medicinale": true,
+      "immagine": "salvia_divinorum.jpg"
+    },
+  ]
+}
